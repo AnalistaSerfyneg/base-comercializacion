@@ -3,11 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inmuebles Formato Simple<title>
-<head>
+  <title>Inmuebles Formato Simple</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 20px;
+    }
+    .inmuebles {
+      background: #fff;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .inmueble {
+      margin-bottom: 10px;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    .inmueble:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
 <body>
   <div class="inmuebles">
-    Los Patios, ID 9, $423.698.688,CONJUNTO CERRADO PALESTINA REAL, Casa, 190 mt, Estrato 4, 4 Baños, 3 Habitaciones, 0 Parqueaderos, 0 Depósitos, ACTIVO;<br>
-  <div>
-<body>
-<html>
+    <div class="inmueble">
+      <strong>Los Patios</strong> / ID: 9 / <strong>$423.698.688</strong> / CONJUNTO CERRADO PALESTINA REAL /
+      <em>Casa</em> / 190 m² / Estrato 4 / 4 Baños / 3 Habitaciones / 0 Parqueaderos / 0 Depósitos / <b>ACTIVO</b>
+    </div>
+  </div>
+</body>
+</html>
